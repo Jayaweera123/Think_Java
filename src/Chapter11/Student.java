@@ -1,9 +1,17 @@
 package Chapter11;
 
+
+
+
+
 public class Student {
     private String name;
     private String grade;
     private int age;
+
+
+    Teacher teacher = new Teacher();
+
 
     //default constructor
     public Student() {
