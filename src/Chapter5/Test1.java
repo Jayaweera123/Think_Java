@@ -8,13 +8,7 @@ public class Test1 {
         System.out.print("Enter any number:");
         number=scanner.nextInt();
 
-        if ( number==0 ) {
-            System.out.println("The number is zero.");
-        }
-
-        if ( number>0 ) {
-            System.out.println("The number is positive.");
-        }
+    
 
         if ( number<0 ) {
             System.out.println("The number is negative.");
